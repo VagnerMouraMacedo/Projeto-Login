@@ -8,10 +8,13 @@ tablet: 768px
 desktop: 992px até 1200
 grandes telas:acima de 1200px*/
 
+
+
 @media screen and (min-width:768px) and (Max-width:992px){
     
-    body{
+    body, html{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-size: cover;
     }
     
     section#login{
@@ -55,6 +58,16 @@ grandes telas:acima de 1200px*/
         float: right;
         width: 50%;
 
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        text-align: justify;
+        
     }
 }
  
