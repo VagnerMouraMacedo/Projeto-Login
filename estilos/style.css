@@ -29,8 +29,8 @@ body, html {
 
 main{
     position:relative;
-    width: 98vw;
-    height: 98vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 section#login{          
@@ -38,8 +38,6 @@ section#login{
     top: 50%;
     left: 50%;
     overflow: hidden;
-
-    
     background-color: white;
     width: 250px;
     height: 510px;
@@ -93,7 +91,6 @@ div#formulario > p{
 div.campo > span{
     color: white;
     padding-top: 2px;
- 
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -106,7 +103,7 @@ div.campo > input{
     border-radius: 8px;
     padding: 8px;
     width: calc(100% - 45px);
-    transform: translateY(-11px);
+    transform: translateY(-11.5px);
 }
 
 div.campo > input:focus-within{
